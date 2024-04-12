@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        
+        <members>LoanIntegrationTriggerHandler</members>
+        <members>LendingSystemIntegration</members>
+        <members>LogManager</members>
+        <members>LendingSystemIntegrationWrapper</members>
+        <members>LendingSystemIntegrationHelper</members>
+        <members>HttpCalloutController</members>
+        <members>ObjectManager</members>
+        <members>LoanIntegrationTrigger_Test</members>
+        <members>LendingSystemIntegrationQueue</members>
+        <members>LendingIntegrationMock</members>
+        <name>ApexClass</name>
+    </types>
+    
+    <types>
+      <members>LoanIntegrationTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    
+     <types>
+        <members>LendingIntegration</members>
+        <name>NamedCredential</name>
+    </types>
+     <types>
+        <members>LendingAuthprovider</members>
+        <name>AuthProvider</name>
+    </types>
+    <types>
+        <members>Loan__c</members>
+        <members>LogInfo__c</members>
+        <name>CustomObject</name>
+    </types>
+    <version>59.0</version>
+</Package>
